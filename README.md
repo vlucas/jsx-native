@@ -24,6 +24,7 @@ class App extends PureComponent {
 ```
 
 ## Caveats
+* **React v16 or higher ONLY**. Previous version of react do not support rendering strings.
 * This project is an *experimental exploration* of what might be possible. There will be lots of edge cases this doesn't handle.
 * This should not be used in production yet, as the client-side JSX gerneation is not cached or memoized yet, and thus is very likely to have slow client render times
 * Events are not supported right now  ("onClick", "on[Whatever]", etc. - working on it!)
